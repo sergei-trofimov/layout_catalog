@@ -6,9 +6,9 @@
   font-family: "Roboto", "Arial", sans-serif;
 
   &__content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 1fr 1fr;
     gap: 50px 48px;
 
     max-width: 944px;
