@@ -49,6 +49,8 @@
 
     color: #fff;
     border: 1px solid $color-blue;
+    transition: color 0.15s linear,
+      background-color 0.15s linear;
 
     &:hover {
       background-color: #fff;
